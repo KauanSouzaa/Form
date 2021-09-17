@@ -1,0 +1,94 @@
+* {
+box-sizing: border-box;
+font-family: "Nunito" ,sans-serif;
+}
+
+body {
+    background-color:#4BAFF2;
+}
+
+.big-box {
+    border-style: solid;
+    border-color: black;
+    border-radius: 40px;
+    margin: 30px;
+    padding: 5px;
+    background-color: #D6D7FE;
+    width: 420px;
+    height: 1000;
+}
+
+h1 {
+    font-size: 45px;
+    color: #4BAFF2;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+label {
+    color: #4BAFF2;
+    display: block;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #000000;
+    background-color:#4BAFF2;
+}
+
+.select {
+    display: inline;
+}
+
+.social {
+    display: inline;
+}
+
+#photograph {
+    background-color: #D6D7FE;
+    border-style: none;
+}
+
+textarea {
+    display: block;
+    background-color: #4BAFF2;
+}
+
+
+input::placeholder {
+    color: #4BAFF2
+}
+
+textarea::placeholder {
+    color: #4BAFF2;
+}
+
+button {
+    cursor: pointer;
+    background-color: #4BAFF2;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+}
+
+.sex {
+    display: inline;
+}
+
+.select {
+    display: inline;
+}
+
+button:hover {
+  background-color: red;
+  color: wheat;
+  border: none;
+}

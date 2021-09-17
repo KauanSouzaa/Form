@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang=”pt-br”>
+
+<head>
+    <meta charset=”UTF-8”>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, innitial-scale=1,0">
+    <link href="./styles2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <form action="" method="POST" enctype="multipart/form-data"></form>
+
+    <div class="big-box">
+
+        <h1>Cadastro</h1>
+
+        <label>Nome:
+            <input type="text" placeholder="Digite Seu Nome" autofocus required>
+        </label>
+
+
+        <label>E-mail:
+            <input type="email" nome="email" autocomplete="email" required placeholder="exemplo@gmail.com.br">
+        </label>
+
+
+
+        <label>Idade:
+            <input type="number" nome="age" required step="1" min="12">
+        </label>
+
+
+        <label>Data de Nascimento:
+            <input type="date" name="date">
+        </label>
+
+
+
+        <label>Onde você possui conta:
+
+            <div>
+                <label class="select">
+                    <input class="social" type="checkbox" /> Instagram
+                </label>
+
+                <label class="select">
+                    <input class="social" type="checkbox" /> Facebook
+                </label>
+
+                <label class="select">
+                    <input class="social" type="checkbox" /> Linkedin
+                </label>
+
+                <label class="select">
+                    <input class="social" type="checkbox" /> Youtube
+                </label>
+            </div>
+        </label>
+        <label>Sexo:
+            <div>
+                <label class="select">
+                    <input class="sex" type="radio" name="sex">Feminino
+                </label>
+
+                <label class="select">
+                    <input class="sex" type="radio" name="sex">Masculino
+                </label>
+            </div>
+        </label>
+
+        </label>
+
+
+
+        <label>Cor dos Olhos:
+            <input type="color" name="color-eyes">
+        </label>
+
+
+
+        <label>Biografia:
+            <textarea name="biography" placeholder="Fale Mais Sobre Você"></textarea>
+        </label>
+
+
+
+        <label>Foto de Perfil:
+            <input id="photograph" type="file" name="photograph" accept="image/*">
+        </label>
+
+
+
+        <Label>Telefone:
+            <input name="tel" type="tel" autocomplete="tel" placeholder="Ex: (00)00000-0000" inputmode="numeric">
+        </Label>
+
+
+
+        <label for="Link-Linkedin"><b>Link do Perfil Linkedin</b>
+            <input type="url" name="Link-Linkedin">
+        </label>
+
+
+
+        <label>Senha:
+            <input type="password" name="Senha" minlength="6" maxlength="8">
+        </label>
+
+
+
+        <button type="reset" name="reset">
+            Limpar
+        </button>
+        <button type="submit" name="submit">
+            Enviar Dados
+        </button>
+    </div>
+    </form>
+
+
+</body>
+
+</html>
